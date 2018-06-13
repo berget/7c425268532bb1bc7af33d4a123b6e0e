@@ -17,7 +17,7 @@ function twoSum($nums, $target) {
 		for ($i=$flag; $i < $fruit; $i++) {
 			if ($ans_num == $nums[$i]) {
 				$ans = array($key, $i);
-        return $ans;
+				return $ans;
 			}
 		}
 	}
