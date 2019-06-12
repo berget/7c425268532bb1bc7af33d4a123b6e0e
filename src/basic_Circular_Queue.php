@@ -56,6 +56,9 @@ class MyCircularQueue {
     /**
      * Get the front item from the queue.
      * 從佇列中獲取前面的項目
+     *
+     * 修正：
+     * 雖然current()是返回當前元素…與reset 將指針指向第一個元素並輸出，是不一樣的
      * @return Integer
      */
     function Front() {
